@@ -13,5 +13,15 @@ namespace SiriusFriends2
         {
             InitializeComponent();
         }
+
+        async void GoAuthBtn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AuthPage());
+        }
+
+        async void GoRegisterhBtn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RegisterPage());
+        }
     }
 }

@@ -13,7 +13,12 @@ namespace SiriusFriends2
         {
             InitializeComponent();
 
-            MainPage = new SiriusFriends2.MainPage();
+            MainPage = new NavigationPage(new MainPage());
+        }
+        
+        public void GoAuthPage()
+        {
+            MainPage = new AuthPage();
         }
 
         protected override void OnStart()

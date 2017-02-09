@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SiriusFriends2"
+             x:Class="SiriusFriends2.RegisterPage">
+
+    <StackLayout>
+        <Label Text="Регистрация" 
+           VerticalOptions="Start" 
+           HorizontalOptions="Center" FontSize="Large" FontFamily="Trebuchet MS" TextColor="Purple" />
+        <Entry x:Name="firstName" Placeholder="Имя"></Entry>
+        <Entry x:Name="lastName" Placeholder="Фамилия"></Entry>
+        <Entry x:Name="lastName2" Placeholder="Отчество"></Entry>
+        <Button BackgroundColor="Purple" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" Text="Завершить"></Button>
+    </StackLayout>
+</ContentPage>
